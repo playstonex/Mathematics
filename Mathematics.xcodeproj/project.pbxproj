@@ -11,6 +11,13 @@
 		ABCBE8EC1FA02FC000919A21 /* MathematicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBE8EB1FA02FC000919A21 /* MathematicsTests.swift */; };
 		ABCBE8EE1FA02FC000919A21 /* Mathematics.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCBE8E01FA02FC000919A21 /* Mathematics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABCBE8F81FA0304700919A21 /* Mathematical.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBE8F71FA0304700919A21 /* Mathematical.swift */; };
+		ABEFD1181FA065500051A0D7 /* Mathematics_watchOs.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEFD1161FA065500051A0D7 /* Mathematics_watchOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEFD12A1FA0656A0051A0D7 /* Mathematics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFD1211FA065690051A0D7 /* Mathematics.framework */; };
+		ABEFD12F1FA0656A0051A0D7 /* Mathematics_tvOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFD12E1FA0656A0051A0D7 /* Mathematics_tvOsTests.swift */; };
+		ABEFD1311FA0656A0051A0D7 /* Mathematics_tvOs.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEFD1231FA0656A0051A0D7 /* Mathematics_tvOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEFD1461FA065810051A0D7 /* Mathematics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFD13D1FA065800051A0D7 /* Mathematics.framework */; };
+		ABEFD14B1FA065810051A0D7 /* Mathematics_macOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFD14A1FA065810051A0D7 /* Mathematics_macOsTests.swift */; };
+		ABEFD14D1FA065810051A0D7 /* Mathematics_macOs.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEFD13F1FA065800051A0D7 /* Mathematics_macOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +27,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABCBE8DC1FA02FC000919A21;
 			remoteInfo = Mathematics;
+		};
+		ABEFD12B1FA0656A0051A0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCBE8D41FA02FC000919A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEFD1201FA065690051A0D7;
+			remoteInfo = "Mathematics-tvOs";
+		};
+		ABEFD1471FA065810051A0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCBE8D41FA02FC000919A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEFD13C1FA065800051A0D7;
+			remoteInfo = "Mathematics-macOs";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,6 +52,21 @@
 		ABCBE8EB1FA02FC000919A21 /* MathematicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicsTests.swift; sourceTree = "<group>"; };
 		ABCBE8ED1FA02FC000919A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCBE8F71FA0304700919A21 /* Mathematical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mathematical.swift; sourceTree = "<group>"; };
+		ABEFD1141FA065500051A0D7 /* Mathematics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mathematics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEFD1161FA065500051A0D7 /* Mathematics_watchOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mathematics_watchOs.h; sourceTree = "<group>"; };
+		ABEFD1171FA065500051A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEFD1211FA065690051A0D7 /* Mathematics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mathematics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEFD1231FA0656A0051A0D7 /* Mathematics_tvOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mathematics_tvOs.h; sourceTree = "<group>"; };
+		ABEFD1241FA0656A0051A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEFD1291FA0656A0051A0D7 /* Mathematics-tvOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mathematics-tvOsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEFD12E1FA0656A0051A0D7 /* Mathematics_tvOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mathematics_tvOsTests.swift; sourceTree = "<group>"; };
+		ABEFD1301FA0656A0051A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEFD13D1FA065800051A0D7 /* Mathematics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mathematics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEFD13F1FA065800051A0D7 /* Mathematics_macOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mathematics_macOs.h; sourceTree = "<group>"; };
+		ABEFD1401FA065800051A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEFD1451FA065800051A0D7 /* Mathematics-macOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mathematics-macOsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEFD14A1FA065810051A0D7 /* Mathematics_macOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mathematics_macOsTests.swift; sourceTree = "<group>"; };
+		ABEFD14C1FA065810051A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +85,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABEFD1101FA065500051A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD11D1FA065690051A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1261FA0656A0051A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD12A1FA0656A0051A0D7 /* Mathematics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1391FA065800051A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1421FA065800051A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD1461FA065810051A0D7 /* Mathematics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +130,11 @@
 			children = (
 				ABCBE8DF1FA02FC000919A21 /* Mathematics */,
 				ABCBE8EA1FA02FC000919A21 /* MathematicsTests */,
+				ABEFD1151FA065500051A0D7 /* Mathematics-watchOs */,
+				ABEFD1221FA0656A0051A0D7 /* Mathematics-tvOs */,
+				ABEFD12D1FA0656A0051A0D7 /* Mathematics-tvOsTests */,
+				ABEFD13E1FA065800051A0D7 /* Mathematics-macOs */,
+				ABEFD1491FA065810051A0D7 /* Mathematics-macOsTests */,
 				ABCBE8DE1FA02FC000919A21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +144,11 @@
 			children = (
 				ABCBE8DD1FA02FC000919A21 /* Mathematics.framework */,
 				ABCBE8E61FA02FC000919A21 /* MathematicsTests.xctest */,
+				ABEFD1141FA065500051A0D7 /* Mathematics.framework */,
+				ABEFD1211FA065690051A0D7 /* Mathematics.framework */,
+				ABEFD1291FA0656A0051A0D7 /* Mathematics-tvOsTests.xctest */,
+				ABEFD13D1FA065800051A0D7 /* Mathematics.framework */,
+				ABEFD1451FA065800051A0D7 /* Mathematics-macOsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +172,51 @@
 			path = MathematicsTests;
 			sourceTree = "<group>";
 		};
+		ABEFD1151FA065500051A0D7 /* Mathematics-watchOs */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFD1161FA065500051A0D7 /* Mathematics_watchOs.h */,
+				ABEFD1171FA065500051A0D7 /* Info.plist */,
+			);
+			path = "Mathematics-watchOs";
+			sourceTree = "<group>";
+		};
+		ABEFD1221FA0656A0051A0D7 /* Mathematics-tvOs */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFD1231FA0656A0051A0D7 /* Mathematics_tvOs.h */,
+				ABEFD1241FA0656A0051A0D7 /* Info.plist */,
+			);
+			path = "Mathematics-tvOs";
+			sourceTree = "<group>";
+		};
+		ABEFD12D1FA0656A0051A0D7 /* Mathematics-tvOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFD12E1FA0656A0051A0D7 /* Mathematics_tvOsTests.swift */,
+				ABEFD1301FA0656A0051A0D7 /* Info.plist */,
+			);
+			path = "Mathematics-tvOsTests";
+			sourceTree = "<group>";
+		};
+		ABEFD13E1FA065800051A0D7 /* Mathematics-macOs */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFD13F1FA065800051A0D7 /* Mathematics_macOs.h */,
+				ABEFD1401FA065800051A0D7 /* Info.plist */,
+			);
+			path = "Mathematics-macOs";
+			sourceTree = "<group>";
+		};
+		ABEFD1491FA065810051A0D7 /* Mathematics-macOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABEFD14A1FA065810051A0D7 /* Mathematics_macOsTests.swift */,
+				ABEFD14C1FA065810051A0D7 /* Info.plist */,
+			);
+			path = "Mathematics-macOsTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -100,12 +228,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABEFD1111FA065500051A0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD1181FA065500051A0D7 /* Mathematics_watchOs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD11E1FA065690051A0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD1311FA0656A0051A0D7 /* Mathematics_tvOs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD13A1FA065800051A0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD14D1FA065810051A0D7 /* Mathematics_macOs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ABCBE8DC1FA02FC000919A21 /* Mathematics */ = {
+		ABCBE8DC1FA02FC000919A21 /* Mathematics-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABCBE8F11FA02FC000919A21 /* Build configuration list for PBXNativeTarget "Mathematics" */;
+			buildConfigurationList = ABCBE8F11FA02FC000919A21 /* Build configuration list for PBXNativeTarget "Mathematics-iOS" */;
 			buildPhases = (
 				ABCBE8D81FA02FC000919A21 /* Sources */,
 				ABCBE8D91FA02FC000919A21 /* Frameworks */,
@@ -116,7 +268,7 @@
 			);
 			dependencies = (
 			);
-			name = Mathematics;
+			name = "Mathematics-iOS";
 			productName = Mathematics;
 			productReference = ABCBE8DD1FA02FC000919A21 /* Mathematics.framework */;
 			productType = "com.apple.product-type.framework";
@@ -139,6 +291,96 @@
 			productReference = ABCBE8E61FA02FC000919A21 /* MathematicsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ABEFD1131FA065500051A0D7 /* Mathematics-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEFD11B1FA065500051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-watchOS" */;
+			buildPhases = (
+				ABEFD10F1FA065500051A0D7 /* Sources */,
+				ABEFD1101FA065500051A0D7 /* Frameworks */,
+				ABEFD1111FA065500051A0D7 /* Headers */,
+				ABEFD1121FA065500051A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mathematics-watchOS";
+			productName = "Mathematics-watchOs";
+			productReference = ABEFD1141FA065500051A0D7 /* Mathematics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABEFD1201FA065690051A0D7 /* Mathematics-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEFD1321FA0656A0051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-tvOS" */;
+			buildPhases = (
+				ABEFD11C1FA065690051A0D7 /* Sources */,
+				ABEFD11D1FA065690051A0D7 /* Frameworks */,
+				ABEFD11E1FA065690051A0D7 /* Headers */,
+				ABEFD11F1FA065690051A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mathematics-tvOS";
+			productName = "Mathematics-tvOs";
+			productReference = ABEFD1211FA065690051A0D7 /* Mathematics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABEFD1281FA0656A0051A0D7 /* Mathematics-tvOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEFD1351FA0656A0051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-tvOsTests" */;
+			buildPhases = (
+				ABEFD1251FA0656A0051A0D7 /* Sources */,
+				ABEFD1261FA0656A0051A0D7 /* Frameworks */,
+				ABEFD1271FA0656A0051A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEFD12C1FA0656A0051A0D7 /* PBXTargetDependency */,
+			);
+			name = "Mathematics-tvOsTests";
+			productName = "Mathematics-tvOsTests";
+			productReference = ABEFD1291FA0656A0051A0D7 /* Mathematics-tvOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABEFD13C1FA065800051A0D7 /* Mathematics-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEFD14E1FA065810051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-macOS" */;
+			buildPhases = (
+				ABEFD1381FA065800051A0D7 /* Sources */,
+				ABEFD1391FA065800051A0D7 /* Frameworks */,
+				ABEFD13A1FA065800051A0D7 /* Headers */,
+				ABEFD13B1FA065800051A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mathematics-macOS";
+			productName = "Mathematics-macOs";
+			productReference = ABEFD13D1FA065800051A0D7 /* Mathematics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABEFD1441FA065800051A0D7 /* Mathematics-macOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEFD1511FA065810051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-macOsTests" */;
+			buildPhases = (
+				ABEFD1411FA065800051A0D7 /* Sources */,
+				ABEFD1421FA065800051A0D7 /* Frameworks */,
+				ABEFD1431FA065800051A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEFD1481FA065810051A0D7 /* PBXTargetDependency */,
+			);
+			name = "Mathematics-macOsTests";
+			productName = "Mathematics-macOsTests";
+			productReference = ABEFD1451FA065800051A0D7 /* Mathematics-macOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,6 +400,26 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					ABEFD1131FA065500051A0D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABEFD1201FA065690051A0D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABEFD1281FA0656A0051A0D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABEFD13C1FA065800051A0D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABEFD1441FA065800051A0D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = ABCBE8D71FA02FC000919A21 /* Build configuration list for PBXProject "Mathematics" */;
@@ -172,8 +434,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABCBE8DC1FA02FC000919A21 /* Mathematics */,
+				ABCBE8DC1FA02FC000919A21 /* Mathematics-iOS */,
+				ABEFD1131FA065500051A0D7 /* Mathematics-watchOS */,
+				ABEFD1281FA0656A0051A0D7 /* Mathematics-tvOsTests */,
 				ABCBE8E51FA02FC000919A21 /* MathematicsTests */,
+				ABEFD1201FA065690051A0D7 /* Mathematics-tvOS */,
+				ABEFD13C1FA065800051A0D7 /* Mathematics-macOS */,
+				ABEFD1441FA065800051A0D7 /* Mathematics-macOsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +454,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABCBE8E41FA02FC000919A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1121FA065500051A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD11F1FA065690051A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1271FA0656A0051A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD13B1FA065800051A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1431FA065800051A0D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,13 +514,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABEFD10F1FA065500051A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD11C1FA065690051A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1251FA0656A0051A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD12F1FA0656A0051A0D7 /* Mathematics_tvOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1381FA065800051A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEFD1411FA065800051A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEFD14B1FA065810051A0D7 /* Mathematics_macOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		ABCBE8E91FA02FC000919A21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABCBE8DC1FA02FC000919A21 /* Mathematics */;
+			target = ABCBE8DC1FA02FC000919A21 /* Mathematics-iOS */;
 			targetProxy = ABCBE8E81FA02FC000919A21 /* PBXContainerItemProxy */;
+		};
+		ABEFD12C1FA0656A0051A0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEFD1201FA065690051A0D7 /* Mathematics-tvOS */;
+			targetProxy = ABEFD12B1FA0656A0051A0D7 /* PBXContainerItemProxy */;
+		};
+		ABEFD1481FA065810051A0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEFD13C1FA065800051A0D7 /* Mathematics-macOS */;
+			targetProxy = ABEFD1471FA065810051A0D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,7 +702,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.playstone.Mathematics;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mathematics;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -378,7 +727,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.playstone.Mathematics;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mathematics;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,6 +764,216 @@
 			};
 			name = Release;
 		};
+		ABEFD1191FA065500051A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Mathematics-watchOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-watchOs";
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		ABEFD11A1FA065500051A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Mathematics-watchOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-watchOs";
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		ABEFD1331FA0656A0051A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Mathematics-tvOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-tvOs";
+				PRODUCT_MODULE_NAME = Mathematics;
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ABEFD1341FA0656A0051A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Mathematics-tvOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-tvOs";
+				PRODUCT_MODULE_NAME = Mathematics;
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		ABEFD1361FA0656A0051A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Mathematics-tvOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-tvOsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ABEFD1371FA0656A0051A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Mathematics-tvOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-tvOsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		ABEFD14F1FA065810051A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Mathematics-macOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-macOs";
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ABEFD1501FA065810051A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Mathematics-macOs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-macOs";
+				PRODUCT_NAME = Mathematics;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ABEFD1521FA065810051A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Mathematics-macOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-macOsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ABEFD1531FA065810051A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BH5JSFWX67;
+				INFOPLIST_FILE = "Mathematics-macOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playstone.Mathematics-macOsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,7 +986,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABCBE8F11FA02FC000919A21 /* Build configuration list for PBXNativeTarget "Mathematics" */ = {
+		ABCBE8F11FA02FC000919A21 /* Build configuration list for PBXNativeTarget "Mathematics-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABCBE8F21FA02FC000919A21 /* Debug */,
@@ -441,6 +1000,51 @@
 			buildConfigurations = (
 				ABCBE8F51FA02FC000919A21 /* Debug */,
 				ABCBE8F61FA02FC000919A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEFD11B1FA065500051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFD1191FA065500051A0D7 /* Debug */,
+				ABEFD11A1FA065500051A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEFD1321FA0656A0051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFD1331FA0656A0051A0D7 /* Debug */,
+				ABEFD1341FA0656A0051A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEFD1351FA0656A0051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-tvOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFD1361FA0656A0051A0D7 /* Debug */,
+				ABEFD1371FA0656A0051A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEFD14E1FA065810051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFD14F1FA065810051A0D7 /* Debug */,
+				ABEFD1501FA065810051A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEFD1511FA065810051A0D7 /* Build configuration list for PBXNativeTarget "Mathematics-macOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEFD1521FA065810051A0D7 /* Debug */,
+				ABEFD1531FA065810051A0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
