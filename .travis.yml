@@ -1,3 +1,5 @@
 language: swift
-xcode_project:Mathematics.xcodeproj
-xcode_scheme:MathematicsTests
+osx_image: xcode9.0
+xcode_project: Mathematics.xcodeproj
+xcode_scheme: MathematicsTests
+xcode_sdk: iphonesimulator11.0
