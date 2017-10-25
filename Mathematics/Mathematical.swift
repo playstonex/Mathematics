@@ -46,21 +46,25 @@ open class Mathematical {
             return [Double](repeating: 0, count: num.count)
         }
         
-        let weight = num.map{$0 / min}
+        let weight = num.map{ min / $0}
         return self.weight(num:weight)
     }
     
     
     open class func average(nums:[Double], weight:[Double]) -> Double {
         if nums.count == 0,
-            nums.count != weight.count {
+            nums.count != weight.count,
+            let min = weight.min(),
+            min <= 0 {
             return 0
         }
-        return nums.enumerated().reduce(0) {$0 + $1.element * weight[$1.offset]}
+        let sum = self.sum(num: weight)
+        let newWeight = weight.map{$0/sum}
+        return nums.enumerated().reduce(0) {$0 + $1.element * newWeight[$1.offset]}
     }
     
     open class func weightedAverage(x :Double,wx :Double,y:Double,wy:Double) -> Double {
-        if wy + wx > 0 || min(wy, wx) < 0 {
+        if min(wx, wy) <= 0 {
             return 0
         }
         return (x * wx + y * wy) / (wx + wy)
