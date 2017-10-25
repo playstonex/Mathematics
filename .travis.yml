@@ -1,0 +1,3 @@
+language: swift
+xcode_project:Mathematics.xcodeproj
+xcode_scheme:MathematicsTests
